@@ -1,6 +1,7 @@
 @{
     RootModule           = 'PwshUtils.psm1'
     ModuleVersion        = '1.0.0'
+    GUID                 = '624a1a3b-67d6-4a1f-bd73-c62b821d703e'
     CompatiblePSEditions = @('Core','Desktop')
     PowerShellVersion    = '7.0'
 

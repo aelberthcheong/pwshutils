@@ -1,3 +1,5 @@
+Import-Module "$PSScriptRoot/../PwshUtils.psd1" -Force
+
 Describe 'Get-LoremIpsum' {
     It 'returns same words with same seed' {
         $a = Get-LoremIpsum -Count 10 -Seed 67

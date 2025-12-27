@@ -1,3 +1,5 @@
+Import-Module "$PSScriptRoot/../PwshUtils.psd1" -Force
+
 Describe 'Get-ShuffledItem' {
     It 'returns same order with same seed' {
         $a = 1..5 | Get-ShuffledItem -Seed 67
